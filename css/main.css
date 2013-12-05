@@ -59,6 +59,14 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+.intro {
+  margin-bottom:30px;
+}
+.intro p{
+  text-align:center;
+  font-size:21px;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 730px;
