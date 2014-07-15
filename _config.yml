@@ -1,3 +1,4 @@
 name: Pretty Simple Things
 markdown: redcarpet
 pygments: true
+permalinks: pretty
