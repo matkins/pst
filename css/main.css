@@ -37,10 +37,7 @@ body {
   display:none;
 }
 .header-logo {
-  width:100%;
-}
-.header-logo-small {
-  display:none;
+  width:280px;
 }
 
 .sign-up-form h3{
@@ -75,10 +72,7 @@ body {
 
 @media (max-width: 460px) {
   .header-logo {
-    display:none;
-  }
-  .header-logo-small {
-    display:block;
+    width:200px;
   }
 }
 
