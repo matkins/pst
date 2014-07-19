@@ -39,6 +39,14 @@ body {
 .header-logo {
   width:280px;
 }
+.nav-justified {
+  margin-bottom:20px;
+}
+
+.nav-justified li {
+display: table-cell;
+width: 1%;
+}
 
 .sign-up-form h3{
   width:100%;
