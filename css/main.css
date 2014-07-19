@@ -27,6 +27,9 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+iframe {
+  margin: 0px 20%;
+}
 
 .header {
   text-align:center;
@@ -39,13 +42,43 @@ body {
 .header-logo {
   width:280px;
 }
-.nav-justified {
-  margin-bottom:20px;
+strong {
+  color:#785365;
 }
 
 .nav-justified li {
-display: table-cell;
-width: 1%;
+  display: table-cell;
+  width: 1%;
+}
+
+.nav {
+  margin-bottom:20px;
+}
+
+.nav li {
+  float:left;
+  width:33.33333%;
+  margin:0px !important;
+  text-align:center;
+}
+.nav > li > a {
+  display:inline-block;
+  color:#785365;
+}
+.nav > li.active > a,
+.nav > li.active > a:hover, 
+.nav > li.active > a:focus {
+  background-color:#785365;
+}
+.nav span{
+  float:left;
+}
+.nav span.button{
+  width:22px;
+  height:25px;
+  background:url(/img/button.png) no-repeat 0px 2px;
+  background-size: 22px 22px;
+  margin-right: 6px;
 }
 
 .sign-up-form h3{
@@ -72,13 +105,21 @@ width: 1%;
   font-size:21px;
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
+.container {
+  max-width: 500px;
 }
 
-@media (max-width: 460px) {
+h2 {
+  margin-top:0px;
+  text-align:center;
+}
+
+.key-techniques img {
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+@media (max-width: 500px) {
   .header-logo {
     width:200px;
   }
@@ -90,5 +131,16 @@ width: 1%;
   .footer {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav > li > a{
+    padding:10px 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .nav > li > a span.button{
+    display:none;
   }
 }
