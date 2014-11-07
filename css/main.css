@@ -45,6 +45,9 @@ iframe {
 strong {
   color:#785365;
 }
+a {
+  color:#2F9F9A;
+}
 
 .nav-justified li {
   display: table-cell;
@@ -108,6 +111,10 @@ strong {
   max-width: 500px;
 }
 
+.container--wide {
+  max-width: 1000px;
+}
+
 h2 {
   margin-top:0px;
   text-align:center;
@@ -116,6 +123,23 @@ h2 {
 .key-techniques img {
   margin-top:15px;
   margin-bottom:15px;
+}
+.key-techniques h2 {
+  margin-bottom:20px;
+}
+
+.technique {
+  padding:0px 20px 10px;
+  background:#fefefe;
+  background:rgba(47, 159, 154, 0.06);
+  border: 1px solid #2F9F9A;
+  margin-bottom:30px;
+  border-radius: 6px;
+}
+.col--right .technique:nth-child(2n-1),
+.col--left .technique:nth-child(2n) {
+  border-color: #785365;
+  background:rgba(120, 83, 101, 0.06);
 }
 
 @media (max-width: 500px) {
